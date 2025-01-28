@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;margin: 0;
+    border: 1px solid red;
 }
 body{
 
@@ -29,9 +30,12 @@ a{
 .formulaire{
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 350px;
     justify-content: center;
     margin-top: 50px;
+    height: 100%;
+    width: 100%;
 }
 .h1{
     display: flex;
@@ -49,3 +53,11 @@ p{
     justify-content: end;
     border-radius: 50px;
 }
+.img{
+    display: flex;
+}
+ection: c
+    img{
+        width: 35px;
+        height: 15px;
+    }
